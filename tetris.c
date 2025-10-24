@@ -54,7 +54,7 @@ int filaVazia(Fila *f) {
     return f->tamanho == 0;
 }
 
-// Gera uma nova peça automaticamente com tipo aleatório
+// Gera uma nova peça automaticamente do tipo aleatório
 Peca gerarPeca(int id) {
     Peca nova;
     char tipos[] = {'I', 'O', 'T', 'L'};
